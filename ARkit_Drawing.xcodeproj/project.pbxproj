@@ -14,6 +14,7 @@
 		0C32425A21287DE5001C2FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C32425821287DE5001C2FDB /* LaunchScreen.storyboard */; };
 		0C32426521287DE6001C2FDB /* ARkit_DrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C32426421287DE6001C2FDB /* ARkit_DrawingTests.swift */; };
 		0C32427021287DE6001C2FDB /* ARkit_DrawingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C32426F21287DE6001C2FDB /* ARkit_DrawingUITests.swift */; };
+		0C32427E21288042001C2FDB /* DynamicGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C32427D21288041001C2FDB /* DynamicGeometry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0C32426B21287DE6001C2FDB /* ARkit_DrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARkit_DrawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C32426F21287DE6001C2FDB /* ARkit_DrawingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARkit_DrawingUITests.swift; sourceTree = "<group>"; };
 		0C32427121287DE6001C2FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C32427D21288041001C2FDB /* DynamicGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicGeometry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				0C32424F21287DE5001C2FDB /* AppDelegate.swift */,
 				0C32425121287DE5001C2FDB /* ViewController.swift */,
 				0C32425321287DE5001C2FDB /* Main.storyboard */,
+				0C32427D21288041001C2FDB /* DynamicGeometry.swift */,
 				0C32425621287DE5001C2FDB /* Assets.xcassets */,
 				0C32425821287DE5001C2FDB /* LaunchScreen.storyboard */,
 				0C32425B21287DE5001C2FDB /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				0C32425221287DE5001C2FDB /* ViewController.swift in Sources */,
 				0C32425021287DE5001C2FDB /* AppDelegate.swift in Sources */,
+				0C32427E21288042001C2FDB /* DynamicGeometry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPM57AZN5T;
 				INFOPLIST_FILE = ARkit_Drawing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPM57AZN5T;
 				INFOPLIST_FILE = ARkit_Drawing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
